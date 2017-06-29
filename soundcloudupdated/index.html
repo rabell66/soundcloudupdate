@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SoundCloud Music Search</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <image src ="images/speaker.png" id="leftSpeaker">
+    <image src ="images/speaker.png" id="rightSpeaker">
+    <div class = "topSection">
+    <header>
+      <h1>BOOM-BOX</h1>
+     <div id="nowPlaying">
+     </div>
+    </header>
+    <section class="player">
+      <audio class="music-player" controls="controls" src="https://api.soundcloud.com/tracks/240890020/stream?client_id=8538a1744a7fdaa59981232897501e04"></audio>
+    </section>
+    <section class="search" >
+        <form >
+         
+              <input type="text" placeholder="Search for Artist" id = "artist">
+              <input type="button" value="submit" id = "submit">
+          </form>
+      <form class="search-form">
+        
+      </form>
+      </div>
+       <h3>Search Results</h3>
+    </section>
+    <input type="button" value ="Play All" id = "playAll">
+    <section class="results"></section>
+   
+    <div class = "options">
+
+
+    </div>
+   </div>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

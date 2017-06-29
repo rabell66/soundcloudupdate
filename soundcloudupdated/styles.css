@@ -1,0 +1,95 @@
+body {
+  background-image:url("images/background.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+.container {
+  text-align: center;
+  background-color: black;
+
+  margin: 12vw 17vw 9vw 21vw;
+}
+#leftSpeaker {
+  position: relative;
+  right: 15.7vw;
+  top: -1px;
+}
+#rightSpeaker {
+  position: relative;
+  left: 15.6vw;
+  top: -1px;
+}
+.container h1 {
+  font-size: -webkit-xxx-large;
+  color: papayawhip;
+  text-shadow: 6px 6px black;
+  position: relative;
+  height: 9.7vw;
+  margin: 0px 0 -4vw;
+}
+.topSection {
+  background-color: #690F08;
+  margin: -18vw 13.5vw 2px 13vw;
+}
+audio {
+  padding: 1vw 0 0 0}
+
+#nowPlaying{
+    width: 26vw;
+    background-color: peachpuff;
+    color: black;
+    height: 2.2vw;
+    border: 0 0 0 24px;
+    position: relative;
+    left: 4vw;
+    overflow:scroll;
+    line-height: 14px;
+}
+
+
+h3 {
+  font-size: x-large;
+    text-shadow: 1px 1px black;
+    background-color: black;
+    margin: 0 0 2px;
+    color: silver;
+}
+
+.options {
+  display: flex;
+  overflow: scroll;
+  width: 54.5vw;
+  padding: 0 25px;
+  margin: 0 0 0 1vw;
+  border-style: ridge;
+  background-color: black;
+}
+.options div {
+  margin: 0 .5vw 0 0;
+}
+.cover {
+  flex: 1 1 25%;
+}
+.options img {
+  margin: .5vw 0 0 0;
+  border-top: solid silver 2px;
+  border-right: solid silver 3px;
+  border-bottom: solid silver 5px;
+  border-left: solid silver 1px;
+  background-color: white;
+}
+.options img:active {
+  border-right: solid silver 1px;
+  border-bottom: solid silver 1px;
+}
+.options p {
+  color:silver;
+  font-size: small;
+  font-weight: lighter;
+}
+
+#artist {
+  width: 14vw;
+  margin: 2vw 0 0 3vw;
+}
